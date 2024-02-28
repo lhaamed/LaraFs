@@ -19,14 +19,12 @@ class LaraFsServiceProvider extends ServiceProvider
 
     public function boot()
     {
-//
+
 //        $this->mergeConfigFrom(__DIR__ . '/config/larafs.php','LaraFs');
 //
-//        $this->loadViewsFrom(__DIR__.'/views','FS');
-//
-//        $this->publishes([
-//            __DIR__ . '/assets' => base_path('public/assets/larafs'),
-//        ],'larafs-assets');
+        $this->publishes([
+            __DIR__ . '/assets' => base_path('public/assets/lara-fs'),
+        ],'larafs-assets');
 //
 
 
