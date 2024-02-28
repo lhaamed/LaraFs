@@ -1,0 +1,30 @@
+{
+    "name": "lhaamed/lara-fs",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "laravel/framework": "^10.0",
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "lhaamed\\LaraFs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Haamed Lazemi",
+            "email": "lhaamed.business@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "lhaamed\\LaraFs\\FsServiceProvider"
+            ],
+            "aliases": {
+                "FS": "lhaamed\\LaraFs\\FS"
+            }
+        }
+    }
+}
