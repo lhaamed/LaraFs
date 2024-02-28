@@ -1,5 +1,6 @@
 {
     "name": "lhaamed/lara-fs",
+    "description": "this package is made for making fs a super fast package to implement in laravel packages.",
     "type": "library",
     "license": "MIT",
     "require": {
