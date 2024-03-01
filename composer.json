@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "lhaamed\\LaraFs\\FsServiceProvider"
+                "lhaamed\\LaraFs\\LaraFsServiceProvider"
             ],
             "aliases": {
                 "FS": "lhaamed\\LaraFs\\FS"
